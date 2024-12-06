@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a1c4fd, #c2e9fb);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+      font-family: 'Comic Sans MS', sans-serif;
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+
+    img {
+      max-width: 500px;
+      height: auto;
+      margin: 10px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Gradiente animado */
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Botão voltar */
+    .button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background: #ff6f61;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background: #e64a45;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Happy Birthday Gazão! 🎂</h1>
+  <p>Muitos treinos, programações, música, felicidades e saúde principalmente! 🎈</p>
+
+  <!-- Imagens e GIFs -->
+  <img src="https://i.pinimg.com/originals/63/9f/52/639f523a4803c6f00f51401b3158d452.gif" alt="Balões animados">
+  <img src="https://media.giphy.com/media/l4pTfx2qLszoacZRS/giphy.gif" alt="Confetes animados">
+  <img src="https://i.pinimg.com/originals/b4/c9/58/b4c958d5e4410a3579f86a81e7eb3fc8.gif" alt="Parabéns animado">
+
+  <!-- Botão voltar -->
+  <button class="button" onclick="window.location.href='index.html'">Voltar</button>
+</body>
+</html>
